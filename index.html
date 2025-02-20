@@ -371,10 +371,6 @@
       <button class="output-button" id="stats-button" onclick="toggleFPS()" title="Enables External FPS Counter"+>
         Enable FPS Counter
       </button>
-	    <!-- Join Discord Server Button -->
-	  <button class="output-button" onclick="togglejoin_discord()" title="Press to Join My Discord Server for Info and Updates"+>
-        Join Discord Server
-      </button>
 	    <!-- Background Color Changer Button -->
       <input id="colorpicker" type="color" onchange="changecolor(this)" title="Changes Color of the Website's Background"+>
       <textarea id="output" rows="8"></textarea>
@@ -624,11 +620,6 @@
 		stopfps = 2;
 		}
 	  }
-	    // Join Discord Function
-	  function togglejoin_discord() {
-	    window.open("https://discord.gg/eSCUUrkhrv", '_blank').focus();
-	  }
-		// End of Button Functions
 
       var g_pWadLoadCallback = undefined;
       function setWadLoadCallback( _wadLoadCallback ) 
